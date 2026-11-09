@@ -25,4 +25,27 @@ Assets/
 └── ThirdParty/UnityTemplate/
 ```
 
-The current build scene is `Assets/Game/Scenes/PrototypeArena.unity`.
+The original resource scene is retained at `Assets/Game/Scenes/PrototypeArena.unity`.
+
+## Client-only TPS prototype
+
+`Assets/Game/Scenes/TPSPlayground.unity` is the active client gameplay scene.
+The current sprint includes Bob locomotion, a shoulder camera, aim strafing,
+procedural upper-body pitch, local hitscan shooting, recoil, tracer, impact,
+ammo UI, and resettable target dummies.
+
+Controls:
+
+- `WASD`: move
+- `Left Shift`: sprint
+- `Left Alt`: walk
+- `C`: crouch
+- `Space`: jump
+- `Right Mouse`: aim
+- `Left Mouse`: fire
+- `R`: reload
+- `Q`: switch shoulder
+- `Escape`: release cursor
+
+Dedicated Server messages, reconciliation, remote players, and authoritative
+damage are intentionally deferred to the next networking sprint.

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Game/Scenes/TPSPlayground.unity
+    guid: 9e0620c004aff3456aaaaf6a3c170e46
+  - enabled: 1
     path: Assets/Game/Scenes/PrototypeArena.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
